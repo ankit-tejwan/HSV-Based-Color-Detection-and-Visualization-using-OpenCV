@@ -28,6 +28,10 @@ pip install opencv-python numpy matplotlib
 # Approach
 Image Loading and Conversion:
 
+
+![istockphoto](https://github.com/user-attachments/assets/8e9f1abb-0abc-4b40-81c0-c069d06f84ec)
+
+
 The input image is loaded using OpenCV (cv2.imread), and it is converted from BGR to HSV color space using cv2.cvtColor. HSV is better for color-based segmentation because it separates color from intensity.
 
 # Color Ranges:
@@ -51,6 +55,10 @@ The percentage of pixels that belong to each color is calculated by dividing the
 A combined mask is created to avoid double-counting overlapping areas by using a bitwise OR operation.
 
 # Visualization:
+
+
+![distribution_output](https://github.com/user-attachments/assets/1f747711-0672-4ea9-a74d-1a2566560824)
+
 
 A pie chart is generated to show the color distribution percentages using matplotlib.
 
