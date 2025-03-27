@@ -1,4 +1,4 @@
-# HSV-Based-Color-Detection-and-Visualization-using-OpenCV
+# HSV-Based-Color-Detection-and-Visualization
 # Color Detection and Visualization in Images
 
 This repository contains code for detecting and visualizing the distribution of colors in an image. The code leverages the OpenCV library to segment colors based on predefined hue ranges and generates a pie chart to visualize the percentage distribution of each detected color.
